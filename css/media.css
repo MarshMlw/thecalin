@@ -1,0 +1,271 @@
+@media screen and (max-width:640px){
+
+  .svg-box{
+    max-width:50%;
+  }
+  .filet-nav{
+    max-width: 100%;
+  }
+  .filet-nav:before{
+    content: "";
+    display: block;
+    width: 50%;
+    border-top: 1px solid black;
+    align-self: baseline;
+    margin: 0 auto;
+  }
+  nav.uk-navbar{
+    display:none;
+  }
+
+  .uk-margin-responsive{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .uk-margin {
+    display:none;
+  }
+
+  br{
+    display:none;
+  }
+  #offcanvas-nav{
+    display:block;
+    max-width: 100%;
+  }
+  .surface-utile2{
+    margin: 0;
+  }
+  h1.uk-text-lead.uk-text-bold{
+    font-size: 3.5em;
+    color: #e0877d;
+    max-width: 100%;
+    padding:0px 30px 0px 30px;
+    text-align: justify;
+    line-height: 0.70;
+  }
+  p{
+    text-align:justify;
+    padding: 0px 20px 0px 10px;
+    margin:0;
+  }
+  h3{
+    font-size: 1.3em;
+    line-height: 1.4;
+    padding:0 30px 0 30px;
+  }
+  .uk-width-1-2{
+    min-width: 100%;
+  }
+  .container-draw1{
+    display:none;
+  }
+  .container-draw02, .container-draw03, .container-draw04, .container-draw05, .container-draw06{
+    display:none;
+  }
+  .container{
+    margin:0;
+    flex-direction:column;
+  }
+  .container-1-3{
+    padding:0;
+  }
+  .container>*{
+    width: 100%;
+  }
+  .container-grid{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    display: none;
+  }
+  .ligne1, .ligne2, .ligne3{
+    max-height:100%;
+    margin:0;
+  }
+  .grid, .grid2, .grid3{
+    width: 100%;
+  }
+  .container-grid img {
+    min-width: 100%;
+  }
+  .container_img>div:last-child:after{
+    display: none;
+  }
+  .draw02{
+    display: none;
+  }
+  .uk-grid{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .pinkbox{
+    left:0;
+    width: 100%;
+  }
+  .img01{
+    padding:0;
+    width: 80%;
+    height: 370px;
+  }
+  .plan-section-col{
+    width: 100%;
+  }
+  .bg-footer{
+  }
+  .link-footer{
+    display: none;
+  }
+  .container_img>div:first-child{
+    padding:0;
+    width: 100%;
+  }
+  .img02{
+    display:none;
+  }
+  .container-footer2{
+    flex-direction: row;
+    flex-wrap:nowrap;
+  }
+  .logo-footer{
+    flex: 0 0 50%;
+  }
+  .social-media{
+    margin: 0 auto;
+    display: flex;
+    width: 60%;
+    padding-bottom:10px;
+  }
+  .container-footer3{
+    display: none;
+  }
+  .nav-footer{
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .nav-footer ul li{
+    list-style-type: none;
+    font-size:12px;
+    line-height:1.5;
+  }
+  .nav-footer li:last-child{
+    display:none;
+  }
+  .container-footer2{
+    padding:20px;
+  }
+
+  .container-footer2 {
+    display: flex;
+    flex-direction: column;
+}
+    .logo-footer{
+      margin:0;
+    }
+    .section-link{
+      flex: 0 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .social-media a svg{
+      width: 65%;
+      height: 100%;
+    }
+
+    .social-media .uk-icon-button {
+      box-sizing: border-box;
+      width: 25px;
+      height: 40px;
+      border: 1px solid #fff;
+      border-radius: 500px;
+      color: #fff;
+      vertical-align: middle;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.1s ease-in-out;
+      transition-property: color, background-color;
+    }
+
+    button.uk-button.uk-button-default {color: #000;border: none;padding-left: 15px;display: block;}
+
+    form.uk-search.uk-search-default {
+      max-width: 98%;
+      background-color: #d8d8d6;
+    }
+
+    .uk-search-default .uk-search-input {
+      border-bottom: none;
+    }
+
+
+    .container-icon-nav {
+      display: flex;
+      flex-direction: row;
+      padding-top: 20px;
+    }
+
+    li.uk-parent {
+      font-size: 1.2em;
+      color: #fff!important;
+    }
+
+    li.uk-active {
+      font-size: 1.2em;
+    }
+    .text-plan p{
+      display:block;
+    }
+
+    iframe{
+      width:100%;
+      height:250px;
+    }
+
+    .uk-width-1-2.plan-section-col.uk-grid-margin.uk-first-column {padding: 0;}
+
+    .container-plan.surface-utile {
+      margin: 0;
+    }
+
+    .text-plan p {
+      padding: 0 20px 20px 10px;
+      text-align: justify;
+    }
+
+    .text-plan {
+      padding: 0;
+    }
+    .container_img>div:last-child:after{
+      display:none;
+    }
+  }
+
+
+#offcanvas-nav ul a {
+    color: #fff!important;
+}
+
+
+
+.bandeau01 {
+}
+
+.nav-footer ul {
+    padding: 0;
+}
+
+input.uk-search-input {
+    margin: 0 auto;
+}
+
+.pinkbox {
+    max-width: 70%;
+    max-height: 50%;
+    height: 200px;
+}
